@@ -16,6 +16,7 @@ namespace Entities.Concrete
         public string logofooterUrl { get; set; }
         public string logomobilUrl { get; set; }
         public string logomobilfooterUrl { get; set; }
+        public ICollection<HomeLang> HomeLangs { get; set; }
 
     }
 }

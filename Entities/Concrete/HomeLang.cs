@@ -18,6 +18,5 @@ namespace Entities.Concrete
         public bool? state { get; set; }        //not görünürlük durumu
         public bool? IsChecked { get; set; }    //notun silinip silinmediği
         public string lang { get; set; }
-        public ICollection<Home_Lang> Home_Langs { get; set; }
     }
 }
