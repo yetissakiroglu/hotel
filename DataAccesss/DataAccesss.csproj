@@ -9,6 +9,8 @@
     <Folder Include="Abstract\UI\" />
     <Folder Include="Concrete\EntityFrameworkCore\Admin\" />
     <Folder Include="Concrete\EntityFrameworkCore\UI\" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+
   </ItemGroup>
 
   <ItemGroup>

@@ -18,8 +18,8 @@ namespace AdminUI
 
             builder.RegisterControllers(Assembly.GetExecutingAssembly());
 
-            builder.RegisterModule<FileManagerModule>();
-            builder.RegisterModule<FileSystemWrapperModule>();
+            //builder.RegisterModule<FileManagerModule>();
+            //builder.RegisterModule<FileSystemWrapperModule>();
 
             IContainer container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
